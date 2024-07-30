@@ -10,7 +10,7 @@ This project is a public repository of Einstein ER20 Presale Counter integrated 
 
 - This also includes connecting and switching to Cronos chain on Metamask and checking for Gas prices from Cronos' API (Thanks Crypto.com for the API endpoint).
 
-### Information
+## Information
 
 **Chain:** [Cronos](https://cronos.org/)
 
@@ -21,3 +21,5 @@ This project is a public repository of Einstein ER20 Presale Counter integrated 
 ### Development
 
 **Developer:** [Rubix Studios](https://www.rubixstudios.com.au)
+
+**Innovation:** [XRL](https://xrl.au)

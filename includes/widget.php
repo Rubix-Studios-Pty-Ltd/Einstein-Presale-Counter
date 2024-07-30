@@ -5,7 +5,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 class Presale_Counter_Widget extends \Elementor\Widget_Base {
-
     public function get_name() {
         return 'cronos-presale-counter';
     }
@@ -55,10 +54,10 @@ class Presale_Counter_Widget extends \Elementor\Widget_Base {
             [
                 'label' => __('Target CRO Contribution', 'cronos-presale-counter'),
                 'type' => \Elementor\Controls_Manager::NUMBER,
-                'default' => 6250000, // Default value
-                'min' => 0, // Minimum value allowed
-                'max' => 10000000, // Maximum value allowed
-                'step' => 1000, // Step value for the number input
+                'default' => 6250000,
+                'min' => 0,
+                'max' => 10000000,
+                'step' => 1000,
             ]
         );
 
@@ -284,10 +283,10 @@ class Presale_Counter_Widget extends \Elementor\Widget_Base {
                 'label' => __( 'Heading Font Weight', 'cronos-presale-counter' ),
                 'type' => \Elementor\Controls_Manager::SLIDER,
                 'range' => [
-                    'px' => [ // Ensure you specify the unit for the range
-                        'min' => 100, // Minimum value allowed
-                        'max' => 1000, // Maximum value allowed
-                        'step' => 100, // Step value for the number input
+                    'px' => [
+                        'min' => 100,
+                        'max' => 1000,
+                        'step' => 100,
                     ],
                 ],
                 'selectors' => [
@@ -295,7 +294,6 @@ class Presale_Counter_Widget extends \Elementor\Widget_Base {
                 ],
             ]
         );
-        
         $this->end_controls_section();
 
         $this->start_controls_section(
@@ -324,10 +322,10 @@ class Presale_Counter_Widget extends \Elementor\Widget_Base {
                 'label' => __( 'Heading Font Weight', 'cronos-presale-counter' ),
                 'type' => \Elementor\Controls_Manager::SLIDER,
                 'range' => [
-                    'px' => [ // Ensure you specify the unit for the range
-                        'min' => 100, // Minimum value allowed
-                        'max' => 1000, // Maximum value allowed
-                        'step' => 100, // Step value for the number input
+                    'px' => [
+                        'min' => 100,
+                        'max' => 1000,
+                        'step' => 100,
                     ],
                 ],
                 'selectors' => [
@@ -443,10 +441,10 @@ class Presale_Counter_Widget extends \Elementor\Widget_Base {
                 'label' => __( 'Contribution Font Weight', 'cronos-presale-counter' ),
                 'type' => \Elementor\Controls_Manager::SLIDER,
                 'range' => [
-                    'px' => [ // Ensure you specify the unit for the range
-                        'min' => 100, // Minimum value allowed
-                        'max' => 1000, // Maximum value allowed
-                        'step' => 100, // Step value for the number input
+                    'px' => [
+                        'min' => 100,
+                        'max' => 1000,
+                        'step' => 100,
                     ],
                 ],
                 'selectors' => [
@@ -902,7 +900,6 @@ class Presale_Counter_Widget extends \Elementor\Widget_Base {
             </button>
             <div id="sale-not-started">Not Yet Started</div>
         </div>
-
         <script src="<?php echo plugin_dir_url( __FILE__ ) . 'js/web3.min.js'; ?>"></script>
         <script src="<?php echo plugin_dir_url( __FILE__ ) . 'js/cronos-presale-counter.js'; ?>"></script>
         <?php
