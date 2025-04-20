@@ -1,10 +1,10 @@
 <?php
 /**
  * Plugin Name: Cronos Presale Counter
- * Plugin URI:  https://www.rubixstudios.com.au
+ * Plugin URI:  https://rubixstudios.com.au
  * Description: Displays a presale counter using Elementor
  * Author:      Rubix Studios
- * Author URI:  https://www.rubixstudios.com.au/
+ * Author URI:  https://rubixstudios.com.au
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Requires at least: 4.9
